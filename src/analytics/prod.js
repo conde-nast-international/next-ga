@@ -10,7 +10,8 @@ export function init(code) {
 
 export function pageview() {
   ReactGA.set({ page: window.location.pathname });
-  ReactGA.pageview(window.location.pathname);
+  // track page path name & query parameters
+  ReactGA.pageview(window.location.pathname + window.location.search);
 }
 
 export function event(category = "", action = "") {

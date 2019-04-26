@@ -7,7 +7,7 @@ export function init(code) {
 }
 
 export function pageview() {
-  log(`Pageview triggered for ${window.location.pathname}`);
+  log(`Pageview triggered for ${window.location.pathname + window.location.search}`);
 }
 
 export function event(category = "", action = "") {
