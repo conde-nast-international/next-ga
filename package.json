@@ -1,6 +1,6 @@
 {
   "name": "@condenast/next-ga",
-  "version": "2.3.4",
+  "version": "2.4.0",
   "main": "index.js",
   "repository": "https://github.com/conde-nast-international/next-ga.git",
   "author": "Sergio Xalambrí <sergiodxa@gmail.com> (https://sergiodxa.com)",
